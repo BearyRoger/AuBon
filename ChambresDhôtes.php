@@ -27,16 +27,16 @@
             <img src="https://www.gites-de-france-gironde.com/img/liste/chambre-hotes-1615279251.jpg">
             <p>Description : Chambre spacieuse pour 13 personne (5 lit double et 3 lit simple)</p>
         </div>
-        <div>
-            <h2>3iém Chambre</h2>
+        <div class='three'>
+            <h2>3iéme Chambre</h2>
             <p>Surface : 20 m²</p>
             <p>Prix : 150 € / nuit</p>
             <p>Nombre de lit : 1</p>
             <img src="https://www.gites-de-france-gironde.com/img/liste/chambre-hotes-1615279251.jpg">
             <p>Description : Petite chambre pour 2 personne (1 lit double)</p>
         </div>
-        <div>
-            <h2>4iém Chambre</h2>
+        <div class='four'>
+            <h2>4iéme Chambre</h2>
             <p>Surface : 25 m²</p>
             <p>Prix : 200 € / nuit</p>
             <p>Nombre de lit : 2</p>
