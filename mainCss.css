@@ -12,9 +12,21 @@ button{
  
 }
 
+#header{
+    background-color: #669966; /* Green */
+    box-shadow: black;
+    padding: 15px;
+}
+
+li{
+    display: inline;
+    padding: 10%;
+}
+
 h1{
     text-align: center;
 }
+
 button:hover{
     background-color: #83c383;
     box-shadow: black;
@@ -29,8 +41,18 @@ button:hover{
     
 }
 
-.one { grid-area: 1 / 2 / 2 / 3; }
-.two { grid-area: 2 / 2 / 3 / 3; }
-.three { grid-area: 3 / 2 / 4 / 3; }
-.four { grid-area: 4 / 2 / 5 / 3; }
-.five { grid-area: 5 / 2 / 6 / 3; } 
+.one { 
+    display: inline-block;
+    grid-area: 1 / 2 / 2 / 3; }
+.two { 
+    display: inline-block;
+    grid-area: 2 / 2 / 3 / 3; }
+.three { 
+    display: inline-block;
+    grid-area: 3 / 2 / 4 / 3; }
+.four { 
+    display: inline-block;
+    grid-area: 4 / 2 / 5 / 3; }
+.five { 
+    display: inline-block;
+    grid-area: 5 / 2 / 6 / 3; } 
