@@ -1,0 +1,72 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container2 {
+    overflow: hidden;
+    /* Cache les éléments qui dépassent du container */
+}
+
+.carousel2 {
+    position: relative;
+}
+
+.carousel2-inner {
+    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    flex-wrap: nowrap;
+}
+
+.slide2 {
+    flex: 0 0 100%;
+    height: 200px;
+    transition: .5s ease-in-out;
+}
+
+.slide2 img {
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel2-controls {
+    position: absolute;
+    z-index: 5;
+    left: 10%;
+    right: 10%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel2-controls button {
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.carousel2-dots {
+    position: absolute;
+    z-index: 5;
+    left: 50%;
+    right: 50%;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel2-dots .dot2 {
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.carousel2-dots .active {
+    border: 10px solid #761530 !important;
+}
+
+.carousel2-dots .inactive {
+    border: 10px solid #2596be;
+}
