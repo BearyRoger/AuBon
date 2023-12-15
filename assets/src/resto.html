@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="AuBonAccueil/mainCss.css"/>
+    <script src="carousel1.js" async></script>
     <title>Restaurant de l'auberge</title>
     <style>
         /* Ajoutez du style CSS ici selon vos besoins */
@@ -33,12 +34,31 @@
 
     <section id="photos">
         <h2>Photos</h2>
-        <div id="carousel">
-            <!-- Ajoutez vos images pour le carrousel ici -->
-            <img src="..\img\fondue.jpg" alt="fondue">
-            <img src="..\img\tarte_myrtille.jpg" alt="tarte_myrtille">
-            <img src="..\img\tartiflette.jpg" alt="tartiflette">
-        </div>
+        <div class="container1">
+            <h2>Fruits et légumes :</h2>
+                <div class="carousel1">
+                    <div class="carousel1-inner">
+                        <div class="slide1">
+                            <img src="..\img\fondue.jpg" alt="Image 1">
+                        </div>
+                        <div class="slide1">
+                            <img src="..\img\tarte_myrtille.jpg"alt="Image 2">
+                        </div>
+                        <div class="slide1">
+                            <img src="..\img\tartiflette.jpg"alt="Image 3">
+                        </div>
+                    </div>
+                    <!-- Conteneur pour les boutons de navigation -->
+                    <div class="carousel1-controls">
+                        <!-- Bouton pour passer à la diapositive précédente -->
+                        <button id="prev1">Précédent</button>
+                        <!-- Bouton pour passer à la diapositive suivante -->
+                        <button id="next1">Suivant</button>
+                    </div>
+                    <!-- Conteneur pour les points de navigation -->
+                    <div class="carousel1-dots"></div>
+                </div>
+                </div>
     </section>
 
     <footer>
