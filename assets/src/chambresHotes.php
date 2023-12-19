@@ -7,6 +7,15 @@
     <title>Chambres d'hôtes</title>
 </head>
 <body>
+<nav>
+    <ul>
+      <li><a href="../../index.html">ACCUEIL</a></li>
+      <li><a href="nos_valeurs.html">NOS VALEURS</a></li>
+      <li><a href="chambresHotes.php">CHAMBRES D'HOTES</a></li>
+      <li><a href="boutique.html">BOUTIQUE</a></li>
+      <li><a href="resto.html">RESTAURANT</a></li>
+    </ul>
+</nav>
     <div>
         <h1>Nos chambre d'hôtes</h1>
     </div>
