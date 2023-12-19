@@ -109,7 +109,10 @@
 </body>
     <footer>
         <ul>
-            <li><a href="AuBonAccueil/assets/src/mentions_legales.html">Mentions légales</a></li>
+            <li><a href="../../index.html">Page d'accueil</a></li>
+            <li><a href="boutique.html">Boutique</a></li>
+            <li><a href="chambresDHotes.php">Chambres d'hôtes</a></li>
+            <li><a href="resto.html">Contact</a></li>
         </ul> 
 
     </footer>
