@@ -107,4 +107,10 @@
         </div>
 </div>
 </body>
+    <footer>
+        <ul>
+            <li><a href="AuBonAccueil/assets/src/mentions_legales.html">Mentions légales</a></li>
+        </ul> 
+
+    </footer>
 </html>
